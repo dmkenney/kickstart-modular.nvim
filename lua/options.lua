@@ -58,6 +58,5 @@ vim.opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize", "help", "
 vim.opt.smoothscroll = true
 vim.opt.foldlevel = 20
 vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
-vim.opt.foldtext = "v:lua.vim.treesitter.foldtext()"
 vim.opt.foldmethod = "expr"
 vim.opt.foldtext = ""
