@@ -22,8 +22,8 @@ vim.keymap.set("n", "]e", diagnostic_goto(true, "ERROR"), { desc = "Next Error" 
 vim.keymap.set("n", "[e", diagnostic_goto(false, "ERROR"), { desc = "Prev Error" })
 vim.keymap.set("n", "]w", diagnostic_goto(true, "WARN"), { desc = "Next Warning" })
 vim.keymap.set("n", "[w", diagnostic_goto(false, "WARN"), { desc = "Prev Warning" })
-vim.keymap.set("n", "<leader>de", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
-vim.keymap.set("n", "<leader>dq", vim.diagnostic.setloclist, { desc = "Diagnostic Quickfix List" })
+vim.keymap.set("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
+vim.keymap.set("n", "<leader>cq", vim.diagnostic.setloclist, { desc = "Diagnostic Quickfix List" })
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
