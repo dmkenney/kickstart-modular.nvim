@@ -52,3 +52,12 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 
 vim.opt.colorcolumn = "120"
+
+vim.opt.sessionoptions = { "buffers", "curdir", "tabpages", "winsize", "help", "globals", "skiprtp", "folds" }
+
+vim.opt.smoothscroll = true
+vim.opt.foldlevel = 20
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldtext = "v:lua.vim.treesitter.foldtext()"
+vim.opt.foldmethod = "expr"
+vim.opt.foldtext = ""
