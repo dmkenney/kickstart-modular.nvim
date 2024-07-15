@@ -28,7 +28,7 @@ vim.keymap.set("n", "<leader>cq", vim.diagnostic.setloclist, { desc = "Diagnosti
 ----------------------------------------------------------------------------------------------------
 
 -- Exit terminal mode in the builtin terminal
-vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+-- vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 ----------------------------------------------------------------------------------------------------
 -- Windows -----------------------------------------------------------------------------------------
