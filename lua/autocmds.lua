@@ -7,6 +7,15 @@ end
 
 local autocmd = vim.api.nvim_create_autocmd
 
+autocmd("VimEnter", {
+  desc = "Restore Session",
+  group = augroup "Session",
+  callback = function()
+    require("persistence").load()
+  end,
+  nested = true,
+})
+
 -- Highlight when yanking (copying) text
 autocmd("TextYankPost", {
   desc = "Highlight when yanking text",
